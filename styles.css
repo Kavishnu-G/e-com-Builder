@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+    background-color: rgb(244, 237, 237);
+  }
+  
+  #controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #output {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ 
+
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(22, 174, 245);
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    
+    
+}
+.nav-links li {
+ 
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+}
+  
+  /* Sliding Banner */
+.banner-slider {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.slides img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+  /* Products Section */
+    .products {
+      padding: 2rem;
+      text-align: center;
+  }
+  
+  .products h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+  }
+  
+  .product {
+      display: inline-block;
+      width: 30%;
+      margin: 1rem;
+      text-align: center;
+  }
+  
+  .product img {
+      width: 100%;
+      height: auto;
+  }
+  
+  .product h3 {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+  }
+  
+  .product p {
+      font-size: 1rem;
+      color: #00bcd4;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
